@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background-color: antiquewhite;
+    /* background: #010615; */
+    color: white;
+}
+.container{
+  
+   width: 90%;
+   height: 80%;
+    height: inherit;
+    background: #060c21;
+    justify-content: baseline;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 11px;
+    overflow:hidden ;
+   margin: 100px;
+  
+}
+.Name{
+    text-align: center;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    /* background-color: aliceblue; */
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    
+    border-bottom:1px solid red;
+}
+.born{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blanchedalmond; */
+    padding: 40px;
+    font-size: 1rem;
+
+}
+
+.imgf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 26px;
+    
+}
+img{
+    width: 50%;
+}
+.content{
+    font-size: 1.5rem;
+    color: white;
+}
+.sepecification
+{
+    margin: 50px;
+    color: white;
+
+}
+.sepecification h3{
+    display: inline;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding:  5px;
+    color: white;
+    border-bottom: 1px solid red;
+} .sepecification blockquote{
+    padding: 15px;
+    font-size: 1.2rem;
+    color: white;
+}
